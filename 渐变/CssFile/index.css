@@ -1,0 +1,61 @@
+h3
+{
+    text-align: center;
+}
+
+div
+{
+    text-align: center;
+
+    width: 60%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+
+body
+{
+    text-align: center;
+}
+
+#grad1
+{
+    height: 100px;
+    background: -webkit-linear-gradient(0deg, #43fff7, blue); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(0deg, red, blue); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(0deg, red, blue); /* Firefox 3.6 - 15 */
+    background: linear-gradient(0deg, red, blue); /* 标准的语法（必须放在最后） */
+}
+
+#grad2
+{
+    height: 100px;
+    background: -webkit-linear-gradient(90deg, red, #37ff3c, #276fd2, blue); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(90deg, red, #37ff3c, #276fd2, blue); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(90deg, red, #37ff3c, #276fd2, blue); /* Firefox 3.6 - 15 */
+    background: linear-gradient(90deg, red, #37ff3c, #276fd2, blue); /* 标准的语法（必须放在最后） */
+}
+
+/**
+不平均渐变
+ */
+#grad3
+{
+    height: 100px;
+    background: -webkit-linear-gradient(180deg, red 20%, #37ff3c 30%, #276fd2 10%, blue 40%); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(180deg, red 20%, #37ff3c 30%, #276fd2 10%, blue 40%); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(180deg, red 20%, #37ff3c 30%, #276fd2 10%, blue 40%); /* Firefox 3.6 - 15 */
+    background: linear-gradient(180deg, red 20%, #37ff3c 30%, #276fd2 10%, blue 40%); /* 标准的语法（必须放在最后） */
+
+}
+
+#grad4
+{
+    height: 100px;
+    background: -webkit-linear-gradient(-90deg, red, blue); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(-90deg, red, blue); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(-90deg, red, blue); /* Firefox 3.6 - 15 */
+    background: linear-gradient(-90deg, red, blue); /* 标准的语法（必须放在最后） */
+
+}
