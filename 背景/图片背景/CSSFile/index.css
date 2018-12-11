@@ -1,0 +1,19 @@
+img
+{
+    width: 100%;
+    height: auto;
+}
+
+body
+{
+    width: 100%;
+
+    height: auto;
+
+    background-image: url("../ImageFile/170468.jpg");
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+}
