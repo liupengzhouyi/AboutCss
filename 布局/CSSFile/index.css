@@ -13,14 +13,16 @@
 {
     font-family: "Kaiti SC";
 
+    font-size: 40px;
+
     color: #f8715f;
 }
 
 .link
 {
-    width: 30%;
+    width: 20%;
 
-    height: 70%;
+    height: 500px;
 
     background-color: #e0ffa9;
 
@@ -29,9 +31,9 @@
 
 .main
 {
-    width: 70%;
+    width: 80%;
 
-    height: 70%;
+    height: 500px;
 
     background-color: #9861ff;
 
@@ -47,4 +49,46 @@
     background-color: #c7d2ce;
 
     clear: both;
+}
+
+li a
+{
+    display: block;
+    text-decoration: none;
+    color: #276fd2;
+}
+
+li a:hover
+{
+    background-color: #7f40f8;
+    color: #bcf1ff;
+}
+
+.actvte
+{
+    background-color: #d6ccf8;
+    color: rgba(0, 0, 0, 0.98);
+}
+
+ul
+{
+    list-style-type: none;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    /*
+    全屏高度
+     */
+    height: 100%;
+    position: fixed;
+    overflow: auto;/*如果导航栏多选项， 允许滚动*/
+
+}
+
+li
+{
+    /*
+    li 内的元素居中
+     */
+    text-align: center;
 }
