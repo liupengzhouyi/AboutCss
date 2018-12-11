@@ -1,0 +1,42 @@
+.header
+{
+    text-align: center;
+
+    width: 100%;
+
+    height: 20%;
+
+    background-color: tan;
+}
+
+.header h2
+{
+    font-family: "Kaiti SC";
+
+    color: #f8715f;
+}
+
+.link
+{
+    width: 30%;
+
+    height: 70%;
+}
+
+.end
+{
+    width: 100%;
+
+    height: 10%;
+
+    background-color: #c7d2ce;
+}
+
+.main
+{
+    width: 70%;
+
+    height: 70%;
+
+    background-color: #9861ff;
+}
