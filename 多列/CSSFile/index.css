@@ -1,0 +1,18 @@
+.newspaper
+{
+    column-count: 3; /*分行数量*/
+
+    column-gap: 40px; /*分行间隙*/
+
+    column-rule-style: solid; /*分行列边框*/
+
+    column-width: 100px; /*分行列宽度*/
+
+
+
+}
+
+h2
+{
+    column-span:all; /*分行跨多少列*/
+}
