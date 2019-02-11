@@ -1,0 +1,14 @@
+h2.pos_abs
+{
+    position:absolute;
+    left:100px;
+    top:150px
+}
+
+div.abc
+{
+    background-color: #7f40f8;
+    position:absolute;
+    left:50%;
+    top:30%;
+}
