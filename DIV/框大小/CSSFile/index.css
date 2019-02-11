@@ -1,0 +1,12 @@
+div
+{
+    background-color: #37ff3c;
+
+    position:absolute;
+    left:50%;
+    top:30%;
+
+    width: 20%;
+    height: 30%;
+    border: 1px solid red;
+}
